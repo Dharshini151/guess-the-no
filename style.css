@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+background: url("https://imgix.bustle.com/uploads/shutterstock/2021/2/16/a1701547-9795-4a4c-945b-774f42b8f18b-shutterstock-1135107098.jpg?w=2000&h=640&fit=crop&crop=faces&auto=format%2Ccompress&blend=000000&blendAlpha=45&blendMode=normal");
+font-family: 'Ranchers',cursive;
+background-color: #7754f8;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height: 1.6;
+padding: 0 20px;
+}
+#input-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+input{
+    margin: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.3em;
+    height: 2.5em;
+}
+
+#submit-button{
+    background-color: #FE8500;
+    margin: 30px 0;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+#message{
+    font-size: 1.5em;
+    background-color: #FECB00;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
+#lives-text{
+    color: white;
+}
+img{
+    width: 60%;
+    max-width: 300px;
+}
+.container1{
+    background: url("https://image.shutterstock.com/z/stock-vector-confetti-background-congratulations-holiday-vector-golden-glitter-sparkles-birthday-winning-or-564470848.jpg");
+    font-family: 'Ranchers',cursive;
+    background-color: #7754f8;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.container2{
+    background: url("https://dbdzm869oupei.cloudfront.net/img/alfombretaratoli/preview/58923.png");
+    font-family: 'Ranchers',cursive;
+    background-color: #7754f8;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+#lost{
+    color: deeppink;
+    margin-bottom: 500px;
+}
+#reset{
+    font-size: 50px;
+    font-weight: 400;
+    color: deeppink;
+}
+#txt1{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+#txt{
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 150px;
+    color: white;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px burlywood,
+        0 0 20px burlywood,
+        0 0 40px burlywood
+        0 0 80px burlywood,
+        0 0 160px burlywood;
+    }
+}
+#gsimg{
+    margin-bottom: 30px;
+    padding-bottom: 3px;
+}
+#win{
+    color: white;
+    margin-bottom: 500px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gradient">
+        <div id="gsimg">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81qwmIdbDwL.png">
+            </div>
+        <h0 id="attemptCount">Number Guessing</h0>        
+        <h1 id="heading">I have a number in my mind.can you guess it? </h1>
+        <div id="input-container">
+            <input type="number" placeholder="Enter your number" id="input-number" min="1" max="100">
+            <button class="submit" id="submit-button">Guess</button>
+        </div>
+        <h2 id="lives-text">
+            Lives:<span id="lives">10</span>
+        </h2>
+        <div id="message"></div>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
